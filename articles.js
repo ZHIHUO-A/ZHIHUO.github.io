@@ -4,11 +4,6 @@ const articles = [
         title: "我的第一篇文章",
         date: "2026年1月14日",
         content: "今天开始尝试搭建博客！"
-    },
-    {
-        title: "HTML真好玩",
-        date: "2026年1月14日",
-        content: "今天学习了HTML标签，发现做网页就像搭积木一样有趣！"
     }
 ];
 
@@ -30,3 +25,4 @@ function showArticles() {
 
 // 页面加载完成后显示文章
 window.onload = showArticles;
+
